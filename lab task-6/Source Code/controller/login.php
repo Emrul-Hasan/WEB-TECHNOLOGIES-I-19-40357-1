@@ -13,13 +13,10 @@ if (isset($_POST['submit']))
 	$_SESSION['username']= $_POST['username'];
  $_SESSION['password']=$_POST['password'];
 
-	header("location:../dashboard_view.php");
+	header("location:../dashboard.php");
   }
  }
 
-	
-   
- 
 
 else 
 {

@@ -4,7 +4,7 @@ function db_conn()
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "elearning";
+    $dbname = "imrul_learning_cs";
 
     try {
         $conn = new PDO('mysql:host='.$servername.';dbname='.$dbname.';charset=utf8', $username, $password);

@@ -9,8 +9,8 @@ if (isset($_POST['submit'])) {
 	$data['contactno'] = $_POST['contactno'];
 	$data['password'] = $_POST['password'];
 
-  if (addInstructor($data)) {
-  	header("location:../login_view.php");
+  if (add($data)) {
+  	header("location:../login.php");
   }
 
 	

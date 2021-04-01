@@ -9,8 +9,8 @@ if(isset($_POST['submit'])) {
 	$data['email'] = $_POST['email'];
 	$data['contactno'] = $_POST['contactno'];
 	
-  if (updateProfile($data['username'],$data)) {
-  	header('Location: ../viewProfile_view.php');
+  if (profile($data['username'],$data)) {
+  	header('Location: ../viewProfile.php');
   }
 } 
 else {
